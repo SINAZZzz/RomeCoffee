@@ -2,4 +2,110 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Kalameh";
+    direction: rtl;
+    overflow-x: hidden;
+
+}
+
+body{
+    background: #212121;
+    padding: 0 5%;
+}
+
+@font-face {
+    font-family: Kalameh;
+    src: url(assets/fonts/Kalameh.ttf);
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FFF;
+    border-radius: 15px;
+    padding: 2rem 1rem;
+    margin-top: 1rem;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.logoImg{
+    width: 12%;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.menu-item{
+    padding-left: 10px;
+    cursor: pointer;
+    font-size: large;
+}
+
+.btn-menu{
+    width: fit-content;
+    display: flex;
+}
+
+.icon-menu{
+    width: 3rem;
+    display: flex;
+    align-items: center;
+    background: #C58D68;
+    padding: 8px;
+    color: white;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+/* responsive */
+
+@media (max-width: 1024px) {
+    .menu-item{
+        padding-left: 10px;
+        font-size: 0.9rem;
+    }
+    .menu{
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 768px) {
+    .menu{
+        margin-right: 1rem;
+        flex-wrap: wrap;
+    }
+    .menu-item{
+        padding-left: 10px;
+        font-size: 0.7rem;
+    }
+    .icon-menu{
+        width: 2.5rem;
+    }
+}
+
+@media (max-width: 426px) {
+    .icon-menu{
+        width: 1.5rem;
+        padding: 5px;
+        margin-right: 5px;
+    }
+    .logoImg{
+        width: 30%;
+    }
+    .menu-item{
+        font-size: 0.65rem;
+        margin-bottom: 5px;
+    }
+    .menu{
+       flex-wrap: wrap;
+    }
 }
