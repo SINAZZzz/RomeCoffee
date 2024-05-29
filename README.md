@@ -30,8 +30,3 @@
 <a href='https://www.figma.com/file/enOBv6YNykmU0rqSq0ONWW/Rome-Coffee-(Community)?type=design&node-id=13-4&mode=design&t=9dvOBRvVUAAonMjk-0'>
     <img src='https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white' />
 </a>
-
-
-<h3> run project </h3>
-
-npm run dev
