@@ -18,6 +18,11 @@ body{
     src: url(assets/fonts/Kalameh.ttf);
 }
 
+@font-face {
+    font-family: IranianSans;
+    src: url(assets/fonts/Iranian\ Sans.ttf);
+}
+
 .navbar{
     display: flex;
     align-items: center;
@@ -167,6 +172,82 @@ body{
     margin-left:30px;
 }
 
+
+
+.cardProducts{
+    background-color: #FFF;
+    width: 23%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding: 25px 15px 15px 15px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.backCard{
+    width: 25rem;
+    height: 20rem;
+    background-color: #C58D68;
+    border-radius: 50%;
+    z-index: 0;
+    position: absolute;
+    margin-top: -25rem;
+}
+.detail{
+    z-index: 1;
+}
+.productImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.productImg img{
+    width: 70%;
+}
+
+.titleProduct{
+    font-size: larger;
+    margin-top: 10px;
+}
+.descriptionProduct{
+    font-size: small;
+    color: #545454;
+    margin: 10px 0px 20px 0px ;
+}
+.buttonProduct{
+    color: #FFF;
+    background-color: #C58D68;
+    width: fit-content;
+    padding: 5px 4rem;
+    border-radius: 15px;
+    display: flex;
+    font-size: 1.4rem;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.buyProduct{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.priceProduct{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.priceOne{
+    font-size: small;
+    padding-bottom: 5px;
+}
+.priceTwo{
+    color: #C58D68;
+    font-weight: bold;
+}
 /* responsive */
 
 @media (max-width: 1024px) {
