@@ -8,3 +8,18 @@ data.map((item) => {
     element.classList.add('menu-item');
     menu.appendChild(element);
 })
+
+
+var swiper = new Swiper(".slide-content", {
+    slidesPerView: 4,
+    spaceBetween: 30,
+    // slidesPerGroup: 2,
+    centerSlide: 'true',
+    fade:'true',
+    grabCursor:'true',
+    loop: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });
