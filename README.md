@@ -6,7 +6,7 @@
 # Rome Coffee
 
 <b>
-    React + Vite + Ts + Mui 
+    Html + Css + Js
 </b>
 
 <h2> Created by </h2>
