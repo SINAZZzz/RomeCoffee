@@ -276,6 +276,32 @@ body{
         font-size: 1.3rem;
         margin-left:20px;
     }
+    .cardProducts{
+        padding: 20px 10px 10px 10px;
+    }
+    .backCard{
+        width: 25rem;
+        height: 20rem;
+        margin-top: -15rem;
+        margin-right: -6rem;
+    }
+    .buttonProduct{
+        padding: 5px 2rem;
+        font-size: 1rem;
+    }
+    .priceOne{
+        font-size: x-small;
+        padding-bottom: 2px;
+    }
+    .priceTwo{
+        color: #C58D68;
+        font-weight: bold;
+        font-size: small;
+    }
+    .titleProduct{
+        font-size: medium;
+        margin-top: 5px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -338,6 +364,30 @@ body{
     }
     .categoryCardTwo img{
         width: 50%;
+    }
+    .cardProducts{
+        padding: 10px 5px 5px 5px;
+    }
+    .backCard{
+        margin-top: -16rem;
+        margin-right: -8rem;
+    }
+    .buttonProduct{
+        padding: 5px 1rem;
+        font-size: 0.8rem;
+    }
+    .priceOne{
+        font-size: x-small;
+        padding-bottom: 2px;
+    }
+    .priceTwo{
+        color: #C58D68;
+        font-weight: bold;
+        font-size: small;
+    }
+    .titleProduct{
+        font-size: small;
+        margin-top: 5px;
     }
 }
 
@@ -405,5 +455,51 @@ body{
     }
     .categoryCardTwo img{
         width: 40%;
+    }
+    .cardProducts{
+        padding: 5px 5px 5px 5px;
+    }
+    .backCard{
+        margin-top: -18rem;
+        margin-right: -10rem;
+    }
+    .buttonProduct{
+        padding: 5px 1rem;
+        font-size: 0.7rem;
+        border-radius: 15px;
+    }
+    .priceProduct{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .priceOne{
+        font-size: xx-small;
+        padding-bottom: 2px;
+    }
+    .priceTwo{
+        color: #C58D68;
+        font-weight: bold;
+        font-size: x-small;
+    }
+    .titleProduct{
+        font-size: x-small;
+        margin-top: 5px;
+    }
+    .productImg img{
+        width: 80%;
+    }
+    .buyProduct{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .descriptionProduct{
+        font-size: x-small;
+        color: #545454;
+        margin: 5px 0px 10px 0px ;
     }
 }
