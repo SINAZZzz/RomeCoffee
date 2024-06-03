@@ -82,6 +82,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 1.5rem;
 }
 .head{
     display: flex;
@@ -333,6 +334,9 @@ body{
         font-size: medium;
         margin-top: 5px;
     }
+    .cardsTool {
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
 }
 
 @media (max-width: 768px) {
@@ -419,6 +423,19 @@ body{
     .titleProduct{
         font-size: small;
         margin-top: 5px;
+    }
+    .cardsTool {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .titleTool{
+        font-size: 1.3rem;
+        margin-top: 1rem;
+    }
+    .imageTool{
+        width: 60%;
+    }
+    .backTool img{
+        width: 40%;
     }
 }
 
@@ -532,5 +549,18 @@ body{
         font-size: x-small;
         color: #545454;
         margin: 5px 0px 10px 0px ;
+    }
+    .cardsTool {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    }
+    .titleTool{
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .imageTool{
+        width: 50%;
+    }
+    .backTool img{
+        width: 35%;
     }
 }
