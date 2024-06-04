@@ -211,7 +211,7 @@ body{
     color: #FFF;
     background-color: #C58D68;
     width: fit-content;
-    padding: 5px 4rem;
+    padding: 5px 3.5rem;
     border-radius: 15px;
     display: flex;
     font-size: 1.4rem;
@@ -368,6 +368,29 @@ body{
     align-items: center;
     justify-content: space-between;
 }
+.popularProducts{
+    margin-top: 2rem;
+}
+.prepareCoffee{
+    width: 100%;
+    border: 1px #C58D68 solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin-top: 2rem;
+}
+.detailPrepare{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 2rem;
+}
+.textPrepare{
+    width: 50%;
+    line-height: 2;
+    height: 100%;
+}
+
 /* responsive */
 @media (max-width: 1024px) {
     .menu-item{
