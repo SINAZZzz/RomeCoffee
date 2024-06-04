@@ -397,6 +397,16 @@ body{
     align-items: center;
     border-radius: 15px;
 }
+.headWhyUs{
+    color: #FFF;
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    border-radius: 15px;
+}
+.imageWhyUs{
+    padding: 20px 0px;
+}
 
 /* responsive */
 @media (max-width: 1024px) {
@@ -492,6 +502,13 @@ body{
     .head-prepare{
         font-size: 1.2rem;
     }
+    .headWhyUs{
+        font-size: 1.2rem;
+    }
+    .imageWhyUs{
+        width: 25%;
+        padding: 20px 0px;
+    }
 }
 
 @media (max-width: 768px) {
@@ -539,21 +556,21 @@ body{
         font-size: 1rem;
     }
     .categoryCard img{
-        width: 50%;
+        width: 40%;
     }
     .categoryCardOne{
         font-size: 1rem;
         margin:0px 10px;
     }
     .categoryCardOne img{
-        width: 50%;
+        width: 40%;
     }
     .categoryCardTwo{
         font-size: 1rem;
         margin-left:10px;
     }
     .categoryCardTwo img{
-        width: 50%;
+        width: 40%;
     }
     .cardProducts{
         padding: 10px 5px 5px 5px;
@@ -631,6 +648,12 @@ body{
     }
     .head-prepare img{
         width: 5%;
+    }
+    .headWhyUs{
+        font-size: 1.1rem;
+    }
+    .headWhyUs img{
+        width: 20%;
     }
 }
 
@@ -804,4 +827,11 @@ body{
         font-size: 0.9rem;
         margin-bottom: 10px;
     }
+    .headWhyUs{
+        font-size: 1rem;
+    }
+    .headWhyUs img{
+        width: 15%;
+    }
+
 }
