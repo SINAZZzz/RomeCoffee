@@ -390,6 +390,13 @@ body{
     line-height: 2;
     height: 100%;
 }
+.head-prepare{
+    color: #FFF;
+    display: flex;
+    font-size: 1.3rem;
+    align-items: center;
+    border-radius: 15px;
+}
 
 /* responsive */
 @media (max-width: 1024px) {
@@ -467,6 +474,23 @@ body{
     }
     .oneBackCard{
         margin-top: -28rem;
+    }
+    .prepareCoffee{
+        padding: 5px;
+    }
+    .detailPrepare{
+        padding: 5px 1rem;
+    }
+    .textPrepare{
+        width: 50%;
+        line-height: 1.2;
+        height: 100%;
+    }
+    .imagePrepare{
+        width: 100%;
+    }
+    .head-prepare{
+        font-size: 1.2rem;
     }
 }
 
@@ -592,6 +616,21 @@ body{
     }
     .discountButtonProduct{
         margin-bottom: 10px;
+    }
+    .detailPrepare{
+        padding: 5px 1rem;
+        flex-direction: column;
+    }
+    .textPrepare{
+        line-height: 1.1;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .head-prepare{
+        font-size: 1.1rem;
+    }
+    .head-prepare img{
+        width: 5%;
     }
 }
 
@@ -719,7 +758,6 @@ body{
     .backTool img{
         width: 35%;
     }
-
     .discount{
         margin: 20px 0px;
     }
@@ -761,5 +799,9 @@ body{
     .discountButtonProduct{
         padding: 5px 0.5rem;
         font-size: 1rem;
+    }
+    .textPrepare{
+        font-size: 0.9rem;
+        margin-bottom: 10px;
     }
 }
