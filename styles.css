@@ -573,6 +573,29 @@ body{
         width: 25%;
         padding: 20px 0px;
     }
+    .cardTest{
+        padding: 20px 10px 10px 10px;
+    }
+    .backCardTest{
+        width: 20rem;
+        margin-top: -17rem;
+        margin-right: -4.5rem;
+    }
+    .ImgTest img{
+        width: 50%;
+    }
+    .titleTest{
+        font-size: medium;
+    }
+    .descriptionTest{
+        font-size: 0.7rem;
+    }
+    .info{
+        margin-top: 5px;
+    }
+    .info p{
+        font-size: medium;
+    }
 }
 
 @media (max-width: 768px) {
@@ -718,6 +741,23 @@ body{
     }
     .headWhyUs img{
         width: 20%;
+    }
+    .cardTest{
+        padding: 20px 10px 10px 10px;
+    }
+    .backCardTest{
+        width: 17rem;
+        margin-top: -18rem;
+        margin-right: -4.5rem;
+    }
+    .titleTest{
+        font-size: small;
+    }
+    .descriptionTest{
+        font-size: 0.6rem;
+    }
+    .info p{
+        font-size: small;
     }
 }
 
@@ -897,5 +937,12 @@ body{
     .headWhyUs img{
         width: 15%;
     }
-
+    .cardTest{
+        padding: 10px;
+    }
+    .backCardTest{
+        width: 25rem;
+        margin-top: -17rem;
+        margin-right: -7.5rem;
+    }
 }
