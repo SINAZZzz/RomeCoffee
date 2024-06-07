@@ -903,6 +903,34 @@ body{
     .btnContact{
         padding: 10px 25px;
     }
+    .footer{
+        padding: 0px 10px 5px 10px;
+    }
+    .foot p{
+        font-size: 1.1rem;
+    }
+    .infoFooter{
+        width: 30%;
+    }
+    .descriptionFooter{
+        padding: 10px 0px;
+        font-size: 0.8rem;
+    }
+    .media svg{
+        width: 10%;
+    }
+    .grouping{
+        width: 70%;
+        padding-right: 10px;
+    }
+    .grouping h3{
+        font-size: medium;
+    }
+    .grouping p {
+        color: #545454;
+        font-size: small;
+        font-weight:100;
+    }
 }
 
 @media (max-width: 426px) {
@@ -1075,7 +1103,7 @@ body{
         font-size: 1rem;
     }
     .textPrepare{
-        font-size: 0.9rem;
+        font-size: 0.8rem;
         margin-bottom: 10px;
     }
     .headWhyUs{
@@ -1107,5 +1135,31 @@ body{
         justify-content: center;
         margin-right: 5px;
         width: 9rem;
+    }
+    .foot p{
+        font-size: 1rem;
+    }
+    .foot{
+        font-size: 0.8rem;
+    }
+    .infoFooter{
+        width: 100%;
+    }
+    .headFooter{
+        display: flex;
+        flex-direction: column;
+    }
+    .media svg{
+        width: 5%;
+    }
+    .grouping{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .grouping h3{
+        font-size: small;
+    }
+    .grouping p {
+        font-size: x-small;
     }
 }
