@@ -158,7 +158,7 @@ body{
     justify-content: center;
     align-items: center;
     background-color: #FFF;
-    padding: 25px 15px 15px 15px;
+    padding: 10px 15px 15px 15px;
     border-radius: 15px;
     position: relative;
 }
@@ -170,7 +170,7 @@ body{
     z-index: 0;
     position: absolute;
     margin-top: -12rem;
-    margin-right: -3rem;
+    margin-right: -4rem;
 }
 .swiper-slide {
     text-align: center;
@@ -189,6 +189,17 @@ body{
 .detail{
     z-index: 1;
     position: relative;
+}
+.special{
+    background-color: #EAE3D3;
+    width: fit-content;
+    height: fit-content;
+    padding: 3px 15px;
+    font-size: 0.9rem;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .productImg{
     display: flex;
@@ -336,7 +347,7 @@ body{
     height: 100%;
     flex-direction: column;
     border-radius: 15px;
-    padding: 0px 15px 0px 15px;
+    padding: 10px 15px 10px 15px;
     justify-content: center;
     align-items: center;
     position: relative;
@@ -429,7 +440,7 @@ body{
     z-index: 0;
     position: absolute;
     margin-top: -13rem;
-    margin-right: -2rem;
+    margin-right: -1rem;
 }
 .detailTest{
     z-index: 1;
@@ -441,7 +452,8 @@ body{
     align-items: center;
 }
 .ImgTest img{
-    width: 60%;
+    width: 45%;
+    padding-top: 30px;
 }
 .titleTest{
     font-size: larger;
@@ -695,6 +707,7 @@ body{
     }
     .ImgTest img{
         width: 50%;
+        padding-top: 0px;
     }
     .titleTest{
         font-size: medium;

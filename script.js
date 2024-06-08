@@ -35,29 +35,3 @@ var swiper = new Swiper(".slide-content", {
       },
     }
   });
-
-  var swiper = new Swiper(".mySwiper", {
-    spaceBetween: 30,
-    centerSlide: 'true',
-    fade:'true',
-    grabCursor:'true',
-    loop: true,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      425: {
-        slidesPerView: 2,
-        spaceBetween: 20,
-      },
-      768: {
-        slidesPerView: 4,
-        spaceBetween: 40,
-      },
-      1024: {
-        slidesPerView: 4,
-        spaceBetween: 50,
-      },
-    }
-  });
